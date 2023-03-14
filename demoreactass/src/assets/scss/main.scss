@@ -1,0 +1,463 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,900;1,900&display=swap');
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif !important;
+}
+
+.navbar-font{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.home{
+    position: relative;
+}
+.asset-1{
+    z-index: -1;
+    position: absolute;
+    top: 0;
+}
+
+.asset-2{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+.group-1{
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+    
+}
+
+.mendleson{
+    height: 789.19px;
+    position: relative;
+}
+
+.asset-4{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.text{
+    position: relative;
+    z-index: 99;
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 56px;
+    float: right;
+    text-align: start;
+    padding-top: 11rem;
+    padding-right: 21rem;
+    max-width: 717px;
+}
+
+.about{
+    margin-top: 77px ;
+}
+.aboutus{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    position: relative;
+    
+   
+    &::after{
+        
+        content: "";
+        width: 156px;
+        border: 4px solid #A9A9A9;  
+        position: absolute;
+        bottom: -13px;
+        left: 0;
+        border-radius: 4px; 
+        
+    }
+
+    p{
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+
+    }
+    
+}
+
+
+
+
+
+
+.borders{
+    max-width: 238px;
+    height: 0px;
+    border: 1px solid #A9A9A9; 
+    } 
+.service{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    margin-top: 105px;
+    position: relative;
+
+    &::after{
+        
+        content: "";
+        width: 62px;
+        border: 4px solid #A9A9A9;  
+        position: absolute;
+        bottom: -13px;
+        right: 55%;
+        border-radius: 4px;
+
+        @media (max-width: 778px){
+            right: 61%;
+            width: 62px;
+        }
+
+        @media (max-width: 425px){
+            right: 64%;
+            width: 62px;
+        }
+        @media (max-width: 375px){
+            right: 66%;
+            width: 62px;
+        }
+
+        
+    }
+
+    &-gap{
+
+        gap:70px 170px;
+        @media (max-width: 1200px) {
+            gap:70px 100px;
+            
+        }
+        @media (max-width: 1092px) {
+            gap:70px 100px;
+            
+        }
+    }
+}
+
+.img-hover:hover{
+    background: #e46262;
+}
+
+
+
+.project-detail{
+    position: relative;
+    width: 50%;
+  }
+  
+  .img-hover {
+    display: block;
+    height: auto;
+  }
+  
+  .img-project {
+    position: absolute;
+    top: 0;
+    bottom: 0; 
+    height: 100%;
+    width: 97%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+    text-align: center;
+  }
+  
+  .project-detail:hover .img-project {
+    opacity: 0.6;
+  }
+  
+  .project-text {
+    color: white;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    position: absolute;
+    bottom: 4rem;
+    left: 6rem;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    max-width: 70px;
+}
+  
+
+
+
+
+
+
+.media{
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #000000;
+    text-decoration: none;
+     
+}
+.readmore{
+    text-decoration: none;
+    color: black;
+}
+.services{
+    position: relative;
+}
+    .asset5{
+        position: absolute;
+        top: -10rem;
+        left: 0;
+        z-index: -1;
+    }
+
+    .asset6{
+        position: absolute;
+        top: 30rem;
+        right: 0;
+        z-index: -1;
+    }
+    .asset7{
+        position: absolute;
+        bottom: 26rem;
+        left: 0;
+        z-index: -1;
+    }
+    .asset8{
+        position: absolute;
+        bottom: 6rem;
+        right: 0;
+        z-index: -1;
+    }
+
+    .asset9{
+        position: absolute;
+        bottom: -19rem;
+        left: 0;
+        z-index: -1;
+    }
+
+
+.ourproject{
+    position: relative;
+}
+.projectasset{
+    position: absolute;
+    right: 0px;
+    top:-15rem;
+}
+
+.ourclient{
+    position: relative;
+}
+.clientassest{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.box{
+    padding: 42px;
+    margin-top: 86px;
+    max-width: 1340px;
+    min-height: 208px;
+    background: #BFDBFF;
+}
+.list{
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 35px !important;
+    &:hover{
+    color: blue !important;
+    }
+ 
+}
+
+
+.projecttitle{
+    margin-top: 105px;
+    position: relative;
+
+    &::after{
+        
+        content: "";
+        width: 120px;
+        border: 4px solid #A9A9A9;  
+        position: absolute;
+        bottom: -13px;
+        right: 50%;
+        border-radius: 4px;
+        
+    }
+    &-borders{
+        
+            max-width: 240px !important;
+            border: 1px solid #A9A9A9; 
+            
+    }
+}
+@media (min-width: 1092px) {
+    .navbar-font{
+        margin-left:9rem ;
+        margin-right: 7rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .text{
+        float: none;
+        padding-right: 0; 
+        margin-left: 1rem;
+        margin-right: 1rem;
+        text-align: center;
+        margin: auto;
+    }   
+}
+@media (max-width: 768px) {
+    .text{
+        float: none;
+        padding-right: 0; 
+        margin-left: 1rem;
+        margin-right: 1rem;
+        text-align: center;
+        
+    } 
+
+    p{
+        text-align: center !important;
+        
+    }
+    h3{
+        text-align: center !important;
+    }
+    .img{
+        
+        opacity: 0.4;
+     }
+    .aboutus{
+        text-align: center;
+        position: relative;
+        font-size: 37px;
+        &::after{
+            
+            content: "";
+            width: 103px;
+            
+            left: 139px;
+            
+            
+        }
+    }
+
+
+    h2{
+        font-size: 37px !important;
+    }
+     
+
+     .borders{
+        margin: auto;
+     }
+}
+
+@media (max-width: 576px){
+    .rojecttitle-margin{
+        margin-top: 1rem;
+    }
+
+    .aboutus{
+        text-align: center;
+        position: relative;
+   
+        &::after{
+            left: 157px;   
+        }
+        
+    }
+
+
+
+}
+
+@media (max-width: 425px) {
+    .mendleson{
+        height: 660px;
+        position: relative;
+    }
+
+     .logo{
+        width: 15rem;
+
+     }
+
+     .img{
+        width: 11rem;
+        opacity: 0.4;
+     }
+
+     h1{
+        font-size: medium;
+     }
+     p{
+        text-align: center !important;
+        font-size: small !important;
+    }
+    .aboutus{
+        text-align: center;
+        position: relative;
+   
+        &::after{
+            
+            content: "";
+            width: 103px;
+            bottom: -13px;
+            left: 82px;
+            border-radius: 4px;
+            
+        }
+    }
+
+}
+
+@media (max-width: 375px) {
+    .logo{
+        width: 10rem;
+    }
+    .img{
+        width: 8rem;
+     }
+     .aboutus{
+        text-align: center;
+        position: relative;
+   
+        &::after{
+            
+            content: "";
+            width: 103px;
+            bottom: -13px;
+            left: 57px;
+            border-radius: 4px;
+            
+        }
+    }
+
+}
